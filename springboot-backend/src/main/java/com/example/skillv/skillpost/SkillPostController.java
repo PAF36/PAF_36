@@ -732,7 +732,8 @@ public class SkillPostController {
         int totalLikes = skillPostService.getTotalLikesForUser(userId);
         return ResponseEntity.ok(totalLikes);
     }
-
+    
+    //like post 
     @GetMapping("/me/total-likes")
     public ResponseEntity<Integer> getCurrentUserTotalLikes(
             @AuthenticationPrincipal OAuth2IntrospectionAuthenticatedPrincipal principal) {
