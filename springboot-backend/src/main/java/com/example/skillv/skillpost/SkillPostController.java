@@ -450,7 +450,7 @@ public class SkillPostController {
         if (!commentToDelete.getAuthorId().equals(userId) && !post.getAuthorId().equals(userId)) {
             return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
         }
-
+//commit 020
         // Remove comment
         post.getComments().removeIf(c -> c.getCommentId().equals(commentObjectId));
         SkillPost updatedPost = skillPostService.update(post);
