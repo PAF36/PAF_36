@@ -282,7 +282,7 @@ public class SkillPostController {
         if (!existingPost.getAuthorId().equals(userId)) {
             return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
         }
-
+//commit 012
         // Delete associated files
         try {
             // Delete video if exists
