@@ -24,3 +24,4 @@ public interface RoadmapRepository extends MongoRepository<Roadmap, String> {
     // Find roadmaps liked by a specific user
     List<Roadmap> findByLikedUserIdsContaining(String userId);
 }
+//repository
