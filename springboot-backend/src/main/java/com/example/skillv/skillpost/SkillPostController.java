@@ -104,7 +104,7 @@ public class SkillPostController {
                 String thumbnailUrl = thumbnailService.generateAndUploadThumbnail(video, videoDurationSeconds);
                 request.setSkillPostVideoThumbnailUrl(thumbnailUrl);
             }
-
+//commit 002
             // Process images if provided
             if (images != null && images.length > 0) {
                 if (images.length > MAX_IMAGES) {
