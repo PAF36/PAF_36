@@ -671,6 +671,7 @@ public class SkillPostController {
 
         return score;
     }
+    //for commit 001
 
     @GetMapping("/public/featured")
     public ResponseEntity<List<SkillPostDto>> getFeaturedSkillPosts() {
