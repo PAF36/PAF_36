@@ -27,4 +27,3 @@ public class MilestonePostDto {
     private List<CommentDto> comments;
 }
 
-//eejc
