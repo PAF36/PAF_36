@@ -100,6 +100,7 @@ public class UserController {
         User updatedUser = userService.updateBio(currentUser.getId().toString(), bioRequest.getBio());
         return ResponseEntity.ok(userMapper.toDto(updatedUser));
     }
+    //email registration issue
 
     @GetMapping("/search")
     public ResponseEntity<List<UserDto>> searchUsers(

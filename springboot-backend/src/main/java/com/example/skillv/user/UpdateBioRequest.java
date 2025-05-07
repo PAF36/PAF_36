@@ -7,3 +7,4 @@ public class UpdateBioRequest {
     private String bio;
 }
 
+//email registration issue
