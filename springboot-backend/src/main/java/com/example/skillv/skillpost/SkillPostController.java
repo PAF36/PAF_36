@@ -327,7 +327,7 @@ public class SkillPostController {
                 .collect(Collectors.toList());
         return ResponseEntity.ok(postDtos);
     }
-
+//commit 013
     @GetMapping("/{skill-post-id}")
     public ResponseEntity<SkillPostDto> getSkillPostById(
             @PathVariable("skill-post-id") String skillPostId) {
