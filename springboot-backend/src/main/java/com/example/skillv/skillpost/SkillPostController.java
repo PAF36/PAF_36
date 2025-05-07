@@ -256,7 +256,7 @@ public class SkillPostController {
 
             // Update fields while preserving metadata
             skillPostMapper.updateEntityFromRequest(request, existingPost);
-
+//commit 011
             // Save and return
             SkillPost updatedPost = skillPostService.update(existingPost);
             return ResponseEntity.ok(skillPostMapper.toDto(updatedPost));
