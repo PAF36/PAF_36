@@ -11,3 +11,4 @@ import lombok.Data;
 public class UserRequest {
     @NotBlank String email;
 }
+// ok
