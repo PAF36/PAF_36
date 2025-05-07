@@ -405,6 +405,7 @@ public class SkillPostController {
         post.getComments().add(comment);
         SkillPost updatedPost = skillPostService.update(post);
 
+        //commit 018
         //Add Notification
         String notificationText = " commented on your " + "'" + updatedPost.getTitle() + "'" + " skill post.";
         NotificationDto notificationDto = new NotificationDto(
