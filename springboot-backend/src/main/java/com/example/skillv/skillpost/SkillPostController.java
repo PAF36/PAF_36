@@ -168,7 +168,7 @@ public class SkillPostController {
             if (!existingPost.getAuthorId().equals(userId)) {
                 return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
             }
-
+//commit 005
             // Create request object and set basic fields
             SkillPostRequest request = new SkillPostRequest();
             request.setSkillName(skillName);
