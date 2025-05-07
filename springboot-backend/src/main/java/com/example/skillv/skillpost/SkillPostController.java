@@ -217,7 +217,7 @@ public class SkillPostController {
                 request.setSkillPostVideoUrl(existingPost.getSkillPostVideoUrl());
                 request.setSkillPostVideoThumbnailUrl(existingPost.getSkillPostVideoThumbnailUrl());
             }
-
+//commit 009
             // Handle image updates
             if (removeImages) {
                 // Delete all existing images
