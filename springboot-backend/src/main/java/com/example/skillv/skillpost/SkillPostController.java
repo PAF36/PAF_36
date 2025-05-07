@@ -132,7 +132,7 @@ public class SkillPostController {
             skillPost.setAuthorId(user.getId().toString());
             skillPost.setAuthorProfileImageUrl(user.getProfileImageUrl());
             skillPost.setAuthorName(principal.getName());
-
+//commit 004
             // Save and convert to DTO
             SkillPost savedPost = skillPostService.save(skillPost);
             return ResponseEntity.status(HttpStatus.CREATED)
