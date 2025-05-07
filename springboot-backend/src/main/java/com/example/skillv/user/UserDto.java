@@ -15,3 +15,5 @@ public class UserDto {
     private int followingCount;
     private boolean currentUserFollows;
 }
+
+//done
