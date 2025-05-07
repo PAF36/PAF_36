@@ -457,7 +457,7 @@ public class SkillPostController {
 
         return ResponseEntity.ok(skillPostMapper.toDto(updatedPost));
     }
-
+//commit 021
     @PutMapping("/{skill-post-id}/comments/{comment-id}")
     public ResponseEntity<SkillPostDto> updateComment(
             @PathVariable("skill-post-id") String skillPostId,
