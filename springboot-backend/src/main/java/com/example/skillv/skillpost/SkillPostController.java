@@ -204,7 +204,7 @@ public class SkillPostController {
                 }
 
                 validateFileType(video, ALLOWED_VIDEO_TYPES);
-
+//commit 008
                 // Upload new video
                 String videoUrl = storageService.uploadFile(video, video.getOriginalFilename());
                 request.setSkillPostVideoUrl(videoUrl);
