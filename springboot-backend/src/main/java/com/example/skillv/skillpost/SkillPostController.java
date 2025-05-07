@@ -193,7 +193,7 @@ public class SkillPostController {
                 if (existingPost.getSkillPostVideoThumbnailUrl() != null) {
                     storageService.deleteFile(existingPost.getSkillPostVideoThumbnailUrl());
                 }
-
+//commit 007
                 // Validate video duration
                 if (videoDurationSeconds == null) {
                     throw new BadRequestException("Video duration must be provided for videos");
