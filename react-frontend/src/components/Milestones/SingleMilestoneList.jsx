@@ -71,4 +71,3 @@ const SingleMilestoneList = (props) => {
 
 // export default SingleMilestoneList
 
-// fu
