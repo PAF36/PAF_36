@@ -366,7 +366,7 @@ public class SkillPostController {
 
         return ResponseEntity.ok(skillPostMapper.toDto(updatedPost));
     }
-
+//commit 016
     @DeleteMapping("/{skill-post-id}/like")
     public ResponseEntity<SkillPostDto> unlikeSkillPost(
             @PathVariable("skill-post-id") String skillPostId,
