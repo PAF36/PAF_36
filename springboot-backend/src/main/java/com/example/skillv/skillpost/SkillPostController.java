@@ -175,7 +175,7 @@ public class SkillPostController {
             request.setTitle(title);
             request.setDescription(description);
             request.setVideoDurationSeconds(videoDurationSeconds);
-
+//commit 006
             // Handle video update
             if (removeVideo && existingPost.getSkillPostVideoUrl() != null) {
                 // Delete existing video and thumbnail
