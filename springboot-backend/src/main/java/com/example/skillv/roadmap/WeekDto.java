@@ -14,3 +14,4 @@ public class WeekDto {
     private String title;
     private String content;
 }
+//dto
