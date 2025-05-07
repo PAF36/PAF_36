@@ -400,6 +400,7 @@ public class SkillPostController {
         comment.setAuthorName(principal.getName());
         comment.setProfileImageUrl(user.getProfileImageUrl());
 
+        //commit 017
         // Add comment to post
         post.getComments().add(comment);
         SkillPost updatedPost = skillPostService.update(post);
