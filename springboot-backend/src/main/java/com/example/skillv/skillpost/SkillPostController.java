@@ -348,7 +348,7 @@ public class SkillPostController {
         String userId = user.getId().toHexString();
 
         SkillPost updatedPost = skillPostService.addLike(skillPostId, userId);
-
+//commit 015
         //Add Notification
         String notificationText = " liked your " + "'" + updatedPost.getTitle() + "'" + " skill post.";
         NotificationDto notificationDto = new NotificationDto(
