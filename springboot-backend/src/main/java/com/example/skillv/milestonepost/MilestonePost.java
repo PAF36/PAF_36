@@ -35,4 +35,3 @@ public class MilestonePost {
     private List<Comment> comments;
 }
 
-//pissu hutti
