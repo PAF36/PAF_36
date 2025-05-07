@@ -234,7 +234,7 @@ public class SkillPostController {
                         storageService.deleteFile(imageUrl);
                     }
                 }
-
+//commit 010
                 // Validate and upload new images
                 if (images.length > MAX_IMAGES) {
                     throw new BadRequestException("Maximum " + MAX_IMAGES + " images allowed");
