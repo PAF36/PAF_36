@@ -466,7 +466,7 @@ public class SkillPostController {
             @AuthenticationPrincipal OAuth2IntrospectionAuthenticatedPrincipal principal
     ) {
         SkillPost post = skillPostService.findById(skillPostId);
-
+//commit 022
         // Get user ID
         String googleId = principal.getAttributes().get("sub").toString();
         String userId = userService.findByGoogleId(googleId)
