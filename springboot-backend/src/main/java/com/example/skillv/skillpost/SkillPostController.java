@@ -519,7 +519,7 @@ public class SkillPostController {
                 .collect(Collectors.toList());
         return ResponseEntity.ok(postDtos);
     }
-
+//commit 024
     @GetMapping("/feed")
     public ResponseEntity<List<SkillPostDto>> getFeed(
             @AuthenticationPrincipal OAuth2IntrospectionAuthenticatedPrincipal principal) {
