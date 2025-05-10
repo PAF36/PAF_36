@@ -541,7 +541,7 @@ public class SkillPostController {
 
         return ResponseEntity.ok(postDtos);
     }
-
+//commit 025
     @GetMapping("/liked")
     public ResponseEntity<List<SkillPostDto>> getLikedPosts(
             @AuthenticationPrincipal OAuth2IntrospectionAuthenticatedPrincipal principal) {
