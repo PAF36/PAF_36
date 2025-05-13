@@ -574,7 +574,7 @@ public class SkillPostController {
                         .map(ObjectId::toHexString)
                         .toList()
                 : new ArrayList<>();
-
+//commit 027
         // Get the current user's ID
         String userId = user.getId().toHexString();
 
