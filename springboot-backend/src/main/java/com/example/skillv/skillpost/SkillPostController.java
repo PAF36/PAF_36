@@ -564,7 +564,7 @@ public class SkillPostController {
 
         String googleId = principal.getAttributes().get("sub").toString();
         User user = userService.findByGoogleId(googleId);
-
+//commit 026
         // Get all posts
         List<SkillPost> allPosts = skillPostService.findAll();
 
