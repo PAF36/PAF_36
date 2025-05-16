@@ -9,7 +9,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 @Component
-@RequiredArgsConstructor
+@RequiredArgsConstructor //create injectror for comment mapper
+
 public class SkillPostMapper {
     private final CommentMapper commentMapper;
 
